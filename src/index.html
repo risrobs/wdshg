@@ -9,6 +9,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+  <body [ngStyle]="{'background-color': color ? 'red' : 'green' }"> your body content</body>
   <body>
     <div [ngClass] ="{'class1':flag ,'class2':!flag}" >
 .
