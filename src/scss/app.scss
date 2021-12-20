@@ -41,3 +41,10 @@ html {
 body {
  backgraound-color: blue;
  }
+ :root {
+  --main-bg-color: #f7b219;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
