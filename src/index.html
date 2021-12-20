@@ -9,10 +9,12 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+  <body [ngStyle]="{'background-color': color ? 'red' : 'green' }"> your body content</body>
   <body>
-    <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
-    </div>
+    <div [ngClass] ="{'class1':flag ,'class2':!flag}" >
+.
+.
+.
+</div>
   </body>
 </html>
